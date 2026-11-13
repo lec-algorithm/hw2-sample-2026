@@ -4,6 +4,7 @@
 #   sh tools/catchup.sh 4      # 4단계가 끝난 상태로
 #
 # 덮어쓰는 것: src/ tests/ experiments/ PLAN.md .github/copilot-instructions.md
+# (그 폴더에만 있던 내 파일은 지워진다. 커밋해 두었으므로 git으로 되찾을 수 있다.)
 # SPEC.md는 아직 템플릿 그대로일 때만 덮어쓴다. AGENT_LOG.md는 건드리지 않는다.
 set -e
 
@@ -18,7 +19,7 @@ if [ -n "$(git status --porcelain)" ]; then
   exit 1
 fi
 
-SAMPLE="https://github.com/lec-algorithm/hw2-sample-2026.git"
+SAMPLE="${SAMPLE:-https://github.com/lec-algorithm/hw2-sample-2026.git}"
 git fetch --quiet --no-tags "$SAMPLE" "refs/tags/step-$step"
 
 for p in src tests experiments PLAN.md .github/copilot-instructions.md; do
@@ -32,4 +33,5 @@ if grep -q "TEMPLATE:" SPEC.md 2>/dev/null; then
 fi
 
 echo "step-$step 상태로 맞췄습니다. 바뀐 것을 확인하고 커밋하세요."
+echo "되돌리고 싶으면: git stash -u"
 git status --short
