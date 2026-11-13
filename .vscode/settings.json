@@ -1,0 +1,24 @@
+{
+  // Code Runner: 편집기 오른쪽 위 ▶ 버튼으로 열려 있는 파일 하나를 실행한다.
+  // 이미지에는 `python`이 없고 `python3`만 있다.
+  "code-runner.executorMap": {
+    "python": "cd $dir && python3 -u $fileName"
+  },
+  // 터미널에서 돌린다. 출력 패널은 입력을 못 받아 input()이 멈춘다.
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+
+  // Python 테스트를 편집기의 Testing 패널에서 바로 돌릴 수 있게 한다.
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": ["-v", "-s", "tests", "-p", "test_*.py"],
+
+  // src/를 import 경로에 넣어 tests가 모듈을 찾을 수 있게 한다.
+  "python.analysis.extraPaths": ["src"],
+
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[python]": { "editor.tabSize": 4 }
+}

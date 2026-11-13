@@ -1,0 +1,32 @@
+{
+  // GitHub Codespaces와 VS Code Dev Containers용 설정.
+  //
+  // algorithm-env와 같은 compose.yml을 그대로 쓴다. 이미지 정의를 두 벌 두지
+  // 않는다. 과제2를 위해 더한 것은 두 가지다.
+  //  - forwardPorts: 단축 URL 서버(8000)를 브라우저와 휴대폰에서 열기 위해
+  //  - GitHub.copilot-chat: 에이전트 모드를 바로 쓰기 위해
+  "name": "hw2-url-shortener",
+  "dockerComposeFile": "../compose.yml",
+  "service": "lab",
+  "workspaceFolder": "/work",
+  "overrideCommand": false,
+  "remoteUser": "root",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": { "label": "url-shortener", "onAutoForward": "notify" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "formulahendry.code-runner",
+        "GitHub.copilot-chat"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postCreateCommand": "python3 --version"
+}
