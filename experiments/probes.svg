@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="sans-serif" font-size="12">
+<rect width="640" height="400" fill="#fbfbf9"/>
+<line x1="56" x2="480" y1="352.0" y2="352.0" stroke="#dfe1e4"/>
+<text x="48" y="356.0" text-anchor="end" fill="#6e7781">0</text>
+<line x1="56" x2="480" y1="305.7" y2="305.7" stroke="#dfe1e4"/>
+<text x="48" y="309.7" text-anchor="end" fill="#6e7781">10</text>
+<line x1="56" x2="480" y1="259.4" y2="259.4" stroke="#dfe1e4"/>
+<text x="48" y="263.4" text-anchor="end" fill="#6e7781">20</text>
+<line x1="56" x2="480" y1="213.1" y2="213.1" stroke="#dfe1e4"/>
+<text x="48" y="217.1" text-anchor="end" fill="#6e7781">30</text>
+<line x1="56" x2="480" y1="166.9" y2="166.9" stroke="#dfe1e4"/>
+<text x="48" y="170.9" text-anchor="end" fill="#6e7781">40</text>
+<line x1="56" x2="480" y1="120.6" y2="120.6" stroke="#dfe1e4"/>
+<text x="48" y="124.6" text-anchor="end" fill="#6e7781">50</text>
+<line x1="56" x2="480" y1="74.3" y2="74.3" stroke="#dfe1e4"/>
+<text x="48" y="78.3" text-anchor="end" fill="#6e7781">60</text>
+<line x1="56" x2="480" y1="28.0" y2="28.0" stroke="#dfe1e4"/>
+<text x="48" y="32.0" text-anchor="end" fill="#6e7781">70</text>
+<text x="56.0" y="370" text-anchor="middle" fill="#6e7781">0</text>
+<text x="162.0" y="370" text-anchor="middle" fill="#6e7781">0.25</text>
+<text x="268.0" y="370" text-anchor="middle" fill="#6e7781">0.5</text>
+<text x="374.0" y="370" text-anchor="middle" fill="#6e7781">0.75</text>
+<text x="480.0" y="370" text-anchor="middle" fill="#6e7781">1</text>
+<text x="268.0" y="390" text-anchor="middle" fill="#24292f">적재율 α</text>
+<text x="14" y="190.0" text-anchor="middle" fill="#24292f" transform="rotate(-90 14 190.0)">평균 탐지 칸 수</text>
+<polyline points="98.4,346.8 140.8,346.1 183.2,345.0 225.6,343.3 268.0,340.4 310.4,335.2 352.8,324.0 395.2,291.8 416.4,246.8 437.6,118.3" fill="none" stroke="#D55E00" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="496" x2="520" y1="38" y2="38" stroke="#D55E00" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="526" y="42" fill="#24292f">실패 · 이론</text>
+<polyline points="98.4,346.8 140.8,346.1 183.2,344.7 225.6,343.5 268.0,339.9 310.4,336.3 352.8,325.9 395.2,291.3 416.4,267.9 437.6,53.7" fill="none" stroke="#D55E00" stroke-width="2"/>
+<circle cx="98.4" cy="346.8" r="3" fill="#D55E00"/>
+<circle cx="140.8" cy="346.1" r="3" fill="#D55E00"/>
+<circle cx="183.2" cy="344.7" r="3" fill="#D55E00"/>
+<circle cx="225.6" cy="343.5" r="3" fill="#D55E00"/>
+<circle cx="268.0" cy="339.9" r="3" fill="#D55E00"/>
+<circle cx="310.4" cy="336.3" r="3" fill="#D55E00"/>
+<circle cx="352.8" cy="325.9" r="3" fill="#D55E00"/>
+<circle cx="395.2" cy="291.3" r="3" fill="#D55E00"/>
+<circle cx="416.4" cy="267.9" r="3" fill="#D55E00"/>
+<circle cx="437.6" cy="53.7" r="3" fill="#D55E00"/>
+<line x1="496" x2="520" y1="58" y2="58" stroke="#D55E00" stroke-width="2"/>
+<text x="526" y="62" fill="#24292f">실패 · 실험</text>
+<polyline points="98.4,347.1 140.8,346.8 183.2,346.4 225.6,345.8 268.0,345.1 310.4,343.9 352.8,342.0 395.2,338.1 416.4,334.3 437.6,326.5" fill="none" stroke="#0072B2" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="496" x2="520" y1="78" y2="78" stroke="#0072B2" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="526" y="82" fill="#24292f">성공 · 이론</text>
+<polyline points="98.4,347.1 140.8,346.8 183.2,346.4 225.6,345.9 268.0,344.8 310.4,344.0 352.8,341.8 395.2,337.8 416.4,335.7 437.6,328.2" fill="none" stroke="#0072B2" stroke-width="2"/>
+<circle cx="98.4" cy="347.1" r="3" fill="#0072B2"/>
+<circle cx="140.8" cy="346.8" r="3" fill="#0072B2"/>
+<circle cx="183.2" cy="346.4" r="3" fill="#0072B2"/>
+<circle cx="225.6" cy="345.9" r="3" fill="#0072B2"/>
+<circle cx="268.0" cy="344.8" r="3" fill="#0072B2"/>
+<circle cx="310.4" cy="344.0" r="3" fill="#0072B2"/>
+<circle cx="352.8" cy="341.8" r="3" fill="#0072B2"/>
+<circle cx="395.2" cy="337.8" r="3" fill="#0072B2"/>
+<circle cx="416.4" cy="335.7" r="3" fill="#0072B2"/>
+<circle cx="437.6" cy="328.2" r="3" fill="#0072B2"/>
+<line x1="496" x2="520" y1="98" y2="98" stroke="#0072B2" stroke-width="2"/>
+<text x="526" y="102" fill="#24292f">성공 · 실험</text>
+</svg>
